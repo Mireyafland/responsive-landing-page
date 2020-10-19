@@ -3,6 +3,209 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
+* {
+  background-color: #eee;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  color:black;
+  display: block;
+  padding: 7px;
+  margin-left:7px;
+}
+
+a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+section {
+  text-align: center;
+}
+
+iframe {
+  justify-content: center;
+  text-align: center;
+  margin:auto;
+  height:20vw;
+  width:45vw;
+}
+
+}
+
+div {
+  text-align: center;
+}
+
+body  {
+
+    background-color: #eee;
+    padding: 0.5vw;
+
+}
+
+a{
+
+    text-decoration: none;
+
+}
+
+nav {
+
+    width: 30vw;
+    justify-content: space-around;
+    float: right;
+    height:5vw;
+    text-align: left;
+
+}
+
+ul{
+
+    list-style-type: none;
+    padding-left:0px;
+
+}
+
+.headnavlist{
+
+    background-color: lightgray;
+    float: left;
+    width: 33%;
+
+}
+
+h2 {
+
+    height:5vw;
+    font-size: 20px;
+
+}
+
+#email{
+
+    justify-content: center;
+    text-align: center;
+    padding 5px;
+
+}
+
+#information{
+
+    justify-content: center;
+    text-align: center;
+
+}
+
+.flex_container{
+
+    display: flex;
+    width:95vw;
+    list-style-position: inside;
+}
+
+.flex_container >div {
+
+    background-color: aliceblue;
+    padding: 10px;
+    width:33vw;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    margin-left:5px;
+
+}
+
+.footer {
+
+    text-align:right;
+    margin-top:20px;
+    margin-top:30px;
+    height:8vw;
+    padding:5px;
+}
+
+.footerli {
+
+    float: right;
+    width: 5vw;
+}
+
+#footertext{
+
+    margin-top:60px;
+
+}
+
+/* Add Breakpoints Here */
+/* Apply to certain size and above */
+
+@media (max-width:650px){
+
+    .headnavlist{
+
+        width:100%;
+        text-align: center;
+
+
+    }
+
+    h1 {
+
+        padding: 0px;
+        position: fixed;
+        height:25vw;
+        margin: auto;
+        text-align: center;
+        background-color: lightgrey;
+        width:95vw;
+
+    }
+
+    #nav_pages{
+
+        align-items: center;
+        text-align: center;
+        width:100%;
+
+
+    }
+
+    #email{
+
+        margin-top: 30vw;
+
+    }
+
+    .flex_container{
+
+        display: contents;
+        list-style-position: inside;
+
+    }
+
+    .flex_container > div{
+
+        width:90vw;
+        margin-bottom: 5px;
+
+    }
+
+    .footer{
+
+        height:15vw;
+    }
+
+    .footerli{
+
+        width: 10vw;
+    }
 
 
 /* Add Breakpoints Here */
