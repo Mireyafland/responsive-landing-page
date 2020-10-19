@@ -123,19 +123,6 @@ h2 {
 
 }
 
-/* Add Breakpoints Here */
-/* Apply to certain size and above */
-
-@media (max-width:650px){
-
-    .headnavlist{
-
-        width:100%;
-        text-align: center;
-
-
-    }
-
     h1 {
 
         padding: 0px;
